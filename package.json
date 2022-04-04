@@ -1,0 +1,14 @@
+{
+  "name": "awebbot",
+  "version": "1.0.0",
+  "description": "A web bot for twitter",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Rohan Pareek",
+  "license": "ISC",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
