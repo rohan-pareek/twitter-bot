@@ -9,7 +9,7 @@ const client = new Twitter({
 });
 
 // create a stream
-const stream = client.stream('statuses/filter', { track: '#html #css #javascript' });
+const stream = client.stream('statuses/filter', { track: '#html, #css #javascript' });
 
 stream.on('data', function (tweet) {
 
